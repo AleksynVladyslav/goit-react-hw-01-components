@@ -1,0 +1,128 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+
+  border: 1px solid gray;
+  border-radius: 20px;
+  background-color: rgba(208, 208, 198, 0.298);
+}
+.description {
+  padding: 40px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.avatar {
+  width: 200px;
+  height: auto;
+}
+.name {
+  font-size: 20px;
+  font-weight: 700;
+}
+.tag {
+  color: grey;
+}
+.location {
+  color: grey;
+}
+.stats {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  border-radius: 0 0 20px 20px;
+
+  background: rgb(110, 110, 145);
+  list-style: none;
+}
+.stats li {
+  display: flex;
+  flex-direction: column;
+  width: 76px;
+  padding: 10px;
+
+  border: 1px solid rgb(96, 96, 127);
+
+  text-align: center;
+  color: #fff;
+}
+.stats li:first-child {
+  border-radius: 0 0 0 20px;
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: rgba(208, 208, 198, 0.298);
+  }
+
+  .description {
+    padding: 40px 40px 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .avatar {
+    width: 200px;
+    height: auto;
+  }
+
+  .name {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .tag,
+  .location {
+    color: grey;
+  }
+
+  .stats {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border-radius: 0 0 20px 20px;
+    background: rgb(110, 110, 145);
+    list-style: none;
+  }
+
+  .stats li {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid rgb(96, 96, 127);
+    text-align: center;
+    color: #fff;
+  }
+
+  .stats li:first-child {
+    border-radius: 0 0 0 20px;
+  }
+
+  .stats li:last-child {
+    border-radius: 0 0 20px 0;
+  }
+
+  .label {
+    margin-bottom: 8px;
+  }
+
+  .quantity {
+    font-weight: 500;
+  }
+}
+.stats li:last-child {
+  border-radius: 0 0 20px 0;
+}
+.label {
+  margin-bottom: 8px;
+}
+.quantity {
+  font-weight: 500;
+}
